@@ -1,0 +1,5 @@
+task.c:9:6:Red_Blinky	8	static
+task.c:13:6:Green_Blinky	8	static
+task.c:17:6:Yellow_Blinky	8	static
+task.c:21:6:Green1_Blinky	8	static
+task.c:25:6:Yellow1_Blinky	8	static

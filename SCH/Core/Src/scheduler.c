@@ -65,7 +65,7 @@ void SCH_Dispatch_Tasks(void)
 	}
 }
 
-uint32_t SCH_Add_Tasks(void (* pFunction)(), uint32_t DELAY, uint32_t PERIOD)
+uint32_t SCH_Add_Task(void (* pFunction)(), uint32_t DELAY, uint32_t PERIOD)
 {
 	uint32_t Index;
 	while((SCH_Tasks_G[Index].pTask != 0x0000) && (Index < SCH_MAX_TASKS)) {
